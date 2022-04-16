@@ -1,0 +1,36 @@
+html{
+    background-color: rgb(73, 80, 126);
+}
+.page{
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color:aliceblue;
+}
+.btn{
+    width:100%;
+    box-shadow: none;
+    background-color: inherit;
+    border-color: aliceblue;
+    color: aliceblue;
+}
+.txt{
+    width:20%;
+    height:5vh;
+    margin:10%;
+    font-size: large;
+}
+
+@media only screen and (max-width: 500px){
+    .page{
+        text-align: center;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-right: 2%;
+        color:aliceblue;
+    }
+    .txt{
+        width:fit-content;
+    }
+}
